@@ -3,133 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <title>บริการทั้งหมด | InMyWash</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header>
-      <h1>
-        <img
-          src="https://static.vecteezy.com/system/resources/thumbnails/041/643/148/small_2x/ai-generated-cleaning-service-bucket-with-sponges-chemicals-bottle-free-png.png"
-          alt="InMyWash Logo"
-          style="height: 80px"
-        />
-        InMyWash
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">หน้าแรก</a></li>
-          <li><a href="about.html">เกี่ยวกับ</a></li>
-          <li><a href="services.html">บริการ</a></li>
-          <li><a href="contact.html">ติดต่อ</a></li>
-        </ul>
-      </nav>
+  <body id="top">
+    <header id="header">
+      <div class="container nav-container">
+        <h1>InMyWash</h1>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ</a></li>
+            <li><a href="services.html">บริการ</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <h1>บริการของเราทั้งหมด</h1>
-
-      <section id="home-cleaning">
-        <img
-          src="https://techsquadteam.com/assets/profile/blogimages/001126878c0bc56020d1a7032ca1f9a5.jpg"
-          alt="Home Cleaning"
-          style="height: 100px"
-        />
-        <h2>บริการทำความสะอาดบ้าน (Home Cleaning)</h2>
-        <p>มอบหมายงานทำความสะอาดประจำวันให้กับทีมงานมืออาชีพของเรา</p>
-        <ul>
-          <li>ทำความสะอาดห้องนั่งเล่นและห้องนอน</li>
-          <li>กวาด เช็ด ถูพื้น และปัดฝุ่นเฟอร์นิเจอร์</li>
-          <li>ทำความสะอาดห้องน้ำและครัว</li>
-        </ul>
-        <p><strong>ตัวเลือก:</strong> รายสัปดาห์, รายปักษ์, รายเดือน</p>
+      <section class="section">
+        <div class="container" style="text-align: center">
+          <h1>บริการของเราทั้งหมด</h1>
+          <p>เลือกบริการที่เหมาะกับไลฟ์สไตล์ของคุณ</p>
+        </div>
       </section>
 
-      <hr />
+      <section class="section">
+        <div class="container">
+          <div class="services-grid">
+            <article class="card service-card" id="home-cleaning">
+              <img
+                src="https://techsquadteam.com/assets/profile/blogimages/001126878c0bc56020d1a7032ca1f9a5.jpg"
+                alt="Home Cleaning"
+                class="service-img"
+              />
 
-      <section id="laundry-service">
-        <img
-          src="https://rjkool.com/wp-content/uploads/2021/09/laundry-services.jpg"
-          alt="laundry service"
-          style="height: 100px"
-        />
-        <h2>บริการซัก อบ รีด (Laundry Service)</h2>
-        <p>บริการซัก อบ รีด แบบถึงบ้าน ช่วยให้เสื้อผ้าของคุณสะอาดพร้อมใช้งาน</p>
-        <p>เราใช้น้ำยาซักผ้าคุณภาพสูงและคำนึงถึงประเภทของผ้าแต่ละชนิด</p>
-        <ol>
-          <li>บริการรับผ้าถึงหน้าบ้าน</li>
-          <li>ซัก อบ รีด และพับ</li>
-          <li>จัดส่งผ้าคืนตามเวลาที่กำหนด</li>
-        </ol>
-        <p><strong>โปรโมชั่น:</strong> ทดลองใช้บริการครั้งแรก ลด 20%</p>
+              <h3>Home Cleaning</h3>
+              <p>บริการทำความสะอาดบ้านประจำวัน ปัด กวาด เช็ด ถู</p>
+              <ul
+                style="text-align: left; margin-left: 20px; margin-bottom: 15px"
+              >
+                <li>ห้องนั่งเล่น / ห้องนอน</li>
+                <li>ห้องครัว / ห้องน้ำ</li>
+                <li>เช็ดกระจกและเฟอร์นิเจอร์</li>
+              </ul>
+              <a href="contact.html" class="btn">จองบริการนี้</a>
+            </article>
+
+            <article class="card service-card" id="laundry-service">
+              <img
+                src="https://rjkool.com/wp-content/uploads/2021/09/laundry-services.jpg"
+                alt="Laundry Service"
+                class="service-img"
+              />
+
+              <h3>Laundry Service</h3>
+              <p>บริการซัก อบ รีด แบบครบวงจร รับ-ส่งถึงที่</p>
+              <ul
+                style="text-align: left; margin-left: 20px; margin-bottom: 15px"
+              >
+                <li>ซักด้วยน้ำยาพรีเมียม</li>
+                <li>รีดเรียบพร้อมใส่ไม้แขวน</li>
+                <li>พับเก็บใส่ถุงสุญญากาศ</li>
+              </ul>
+              <a href="contact.html" class="btn">จองบริการนี้</a>
+            </article>
+
+            <article class="card service-card" id="special-cleaning">
+              <img
+                src="https://d3ixge6icd4njv.cloudfront.net/wp-content/uploads/2021/02/black-couple-cleaning-520x245.jpg"
+                alt="Special Cleaning"
+                class="service-img"
+              />
+
+              <h3>Special Cleaning</h3>
+              <p>ทำความสะอาดเฉพาะจุดที่ยากจะเข้าถึง</p>
+              <ul
+                style="text-align: left; margin-left: 20px; margin-bottom: 15px"
+              >
+                <li>กำจัดไรฝุ่นที่นอน/โซฟา</li>
+                <li>ซักผ้าม่าน (ไม่ต้องถอด)</li>
+                <li>Big Cleaning Day</li>
+              </ul>
+              <a href="contact.html" class="btn">จองบริการนี้</a>
+            </article>
+          </div>
+        </div>
       </section>
 
-      <hr />
+      <section class="section" id="package-comparison">
+        <div class="container">
+          <h2>เปรียบเทียบแพ็กเกจทำความสะอาดบ้าน</h2>
 
-      <section id="special-cleaning">
-        <h2>บริการทำความสะอาดเฉพาะทาง</h2>
-        <p>
-          บริการที่ต้องการความเชี่ยวชาญพิเศษ เพื่อจัดการกับสิ่งสกปรกที่ซ่อนอยู่
-        </p>
-        <ul>
-          <li>
-            <strong>Mattress & Curtain Cleaning:</strong>
-            กำจัดไรฝุ่นและคราบฝังลึก
-          </li>
-          <li>
-            <strong>Deep Cleaning:</strong> ทำความสะอาดใหญ่หลังย้ายเข้า-ออก
-          </li>
-          <li>
-            <strong>Carpet & Sofa Cleaning:</strong>
-            ขจัดคราบและกลิ่นไม่พึงประสงค์
-          </li>
-        </ul>
-      </section>
-
-      <hr />
-
-      <section id="package-comparison">
-        <h2>เปรียบเทียบแพ็กเกจทำความสะอาดบ้าน</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>คุณสมบัติ</th>
-              <th>Basic (4 ชม.)</th>
-              <th>Standard (6 ชม.)</th>
-              <th>Premium (8 ชม.)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>จำนวนพนักงาน</td>
-              <td>1 คน</td>
-              <td>2 คน</td>
-              <td>2-3 คน</td>
-            </tr>
-            <tr>
-              <td>ขอบเขตทำความสะอาด</td>
-              <td>ทำความสะอาดทั่วไป</td>
-              <td>ทั่วไป + ล้างจาน</td>
-              <td>ทำความสะอาดทุกจุด + ซักรีด</td>
-            </tr>
-            <tr>
-              <td>น้ำยาทำความสะอาด</td>
-              <td>มาตรฐาน</td>
-              <td>พรีเมียม</td>
-              <td>ออแกนิค</td>
-            </tr>
-            <tr>
-              <td>ราคาเริ่มต้น</td>
-              <td>899 บาท</td>
-              <td>1,499 บาท</td>
-              <td>2,299 บาท</td>
-            </tr>
-          </tbody>
-        </table>
+          <div class="table-responsive">
+            <table>
+              <thead>
+                <tr>
+                  <th>คุณสมบัติ</th>
+                  <th>Basic (4 ชม.)</th>
+                  <th>Standard (6 ชม.)</th>
+                  <th>Premium (8 ชม.)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>จำนวนพนักงาน</td>
+                  <td>1 คน</td>
+                  <td>2 คน</td>
+                  <td>2-3 คน</td>
+                </tr>
+                <tr>
+                  <td>ขอบเขตงาน</td>
+                  <td>ทั่วไป</td>
+                  <td>ทั่วไป + ล้างจาน</td>
+                  <td>ทุกจุด + ซักรีด</td>
+                </tr>
+                <tr>
+                  <td>น้ำยาทำความสะอาด</td>
+                  <td>มาตรฐาน</td>
+                  <td>พรีเมียม</td>
+                  <td>ออร์แกนิค 100%</td>
+                </tr>
+                <tr>
+                  <td>ราคาเริ่มต้น</td>
+                  <td>899 บาท</td>
+                  <td>1,499 บาท</td>
+                  <td>2,299 บาท</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>&copy; 2025 InMyWash. All rights reserved.</p>
+
+    <footer id="footer">
+      <p>© 2025 InMyWash. All rights reserved.</p>
     </footer>
+
+    <a href="#top" class="back-to-top">↑</a>
   </body>
 </html>
