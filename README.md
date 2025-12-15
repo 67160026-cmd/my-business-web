@@ -21,10 +21,10 @@ my-business-web/
 
 ## รูปหน้าจอทั้งหมด
 
-![ภาพหน้าจอของหน้าแรก InMyWash](images/screenshot-index.png)
-![ภาพหน้าจอของหน้าเกี่ยวกับ InMyWash](images/screenshot-about.png)
-![ภาพหน้าจอของหน้าบริการ InMyWash](images/screenshot-services.png)
-![ภาพหน้าจอของหน้าติดต่อ InMyWash](images/screenshot-contact.png)
+![ภาพหน้าจอของหน้าแรก InMyWash](images/screenshot-indexup.png)
+![ภาพหน้าจอของหน้าเกี่ยวกับ InMyWash](images/screenshot-aboutup.png)
+![ภาพหน้าจอของหน้าบริการ InMyWash](images/screenshot-servicesup.png)
+![ภาพหน้าจอของหน้าติดต่อ InMyWash](images/screenshot-contactup.png)
 
 ## ลิงก์เข้าไปในแต่ละหน้า
 
